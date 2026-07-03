@@ -33,8 +33,8 @@ export function Footer() {
           </div>
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Contact</p>
-            <a href="mailto:info@amplifysocial.com" className="mt-4 inline-flex text-sm font-medium text-slate-200 transition hover:text-white">
-              info@amplifysocial.com
+            <a href="mailto:info@amplifysocial.in" className="mt-4 inline-flex text-sm font-medium text-slate-200 transition hover:text-white">
+              info@amplifysocial.in
             </a>
           </div>
         </div>

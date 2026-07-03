@@ -46,7 +46,7 @@ export function Contact() {
     } catch (error) {
       setError(
         error instanceof Error
-          ? "Sorry, your message could not be sent right now. Please email info@amplifysocial.com directly."
+          ? "Sorry, your message could not be sent right now. Please email info@amplifysocial.in directly."
           : "Sorry, your message could not be sent right now. Please try again later.",
       );
     } finally {
@@ -79,8 +79,8 @@ export function Contact() {
                 <br />
                 New Delhi – 110020
               </p>
-              <a href="mailto:info@amplifysocial.com" className="mt-4 inline-flex text-sm font-semibold text-violet-700">
-                info@amplifysocial.com
+              <a href="mailto:info@amplifysocial.in" className="mt-4 inline-flex text-sm font-semibold text-violet-700">
+                info@amplifysocial.in
               </a>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-const RECIPIENT = process.env.CONTACT_EMAIL ?? "info@amplifysocial.com";
+const RECIPIENT = process.env.CONTACT_EMAIL ?? "info@amplifysocial.in";
 const FROM = process.env.SMTP_FROM ?? process.env.SMTP_USER;
 
 interface ContactPayload {
@@ -61,7 +61,7 @@ export async function POST(request: Request) {
 
   try {
     await transporter.sendMail(mailOptions);
-    return NextResponse.json({ ok: true, message: "Enquiry sent to info@amplifysocial.com." });
+    return NextResponse.json({ ok: true, message: "Enquiry sent to info@amplifysocial.in." });
   } catch (err) {
     console.error("SMTP send error:", err);
     const message = err instanceof Error ? err.message : "Unknown SMTP error";
