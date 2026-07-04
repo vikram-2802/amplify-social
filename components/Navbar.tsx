@@ -17,14 +17,18 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <div className="mx-auto grid max-w-7xl grid-cols-[auto_1fr_auto] items-center px-6 py-4 lg:px-8">
         <Link href="#top" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 via-pink-500 to-violet-600 text-lg font-semibold text-white">
-            A
-          </div>
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-slate-200">
+          <img
+            src="/amplify-social-logo.svg"
+            alt="Amplify Social logo"
+            className="h-12 w-auto sm:h-14"
+          />
+          <div className="hidden sm:flex flex-col">
+            <p className="text-lg font-semibold uppercase tracking-[0.35em] text-white">
               Amplify Social
             </p>
-            <p className="text-xs text-slate-400">Real Voices. Real Influence. Real Impact.</p>
+            <p className="text-xs text-slate-400">
+              Real Voices. Real Influence. Real Impact.
+            </p>
           </div>
         </Link>
 

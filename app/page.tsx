@@ -23,9 +23,8 @@ export default function Home() {
       <Clients />
       <WhyChooseUs />
       <CTA />
-        <ContactInfo />
-        <Footer />
-      <WhatsAppButton />
+      <ContactInfo />
+      <Footer />
     </main>
   );
 }
