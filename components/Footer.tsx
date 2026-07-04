@@ -31,11 +31,25 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Contact</p>
-            <a href="mailto:info@amplifysocial.in" className="mt-4 inline-flex text-sm font-medium text-slate-200 transition hover:text-white">
-              info@amplifysocial.in
-            </a>
+          <div className="space-y-6">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Contact</p>
+              <a href="mailto:info@amplifysocial.in" className="mt-4 block text-sm font-medium text-slate-200 transition hover:text-white">
+                info@amplifysocial.in
+              </a>
+            </div>
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Office</p>
+              <p className="mt-4 max-w-sm text-sm leading-7 text-slate-400">
+                808B, DLF Prime Tower
+                <br />
+                Pocket F, Okhla Phase I
+                <br />
+                Okhla Industrial Estate
+                <br />
+                New Delhi – 110020
+              </p>
+            </div>
           </div>
         </div>
       </div>
